@@ -66,12 +66,15 @@ php artisan install:broadcasting
 ```
 ※ `laravel-echo` と `pusher-js` がインストールされる
 
-5. ジョブキュー起動
-```
-php artisan queue:work
-```
+5. コード書き換え
+laravel側とjs少し追記
 
 6. Laravel Reverve起動
 ```
 php artisan reverb:start --debug
+```
+
+7. vite ローカルサーバ起動
+```
+npm run dev
 ```
