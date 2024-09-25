@@ -1,0 +1,1 @@
+# laravel-minimum-chat-sample
